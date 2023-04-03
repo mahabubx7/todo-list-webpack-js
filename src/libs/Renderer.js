@@ -22,15 +22,11 @@ export default class Renderer {
     for (const it in currentList) {
       updated.push(this.list[Number(currentList[it].dataset?.index)]);
     }
-    // updated = updated.slice(0, currentList.length);
-    console.log('update_serials => ', updated);
     // eslint-disable-next-line no-restricted-syntax, guard-for-in
     for (const i in updated) {
       const indx = i + 1;
       updated[i].index = indx;
-      console.log(i, updated[i]);
     }
-    console.log('updated=> ', updated.slice(0, currentList.length));
     new Storage('todo').set(updated);
   }
 
