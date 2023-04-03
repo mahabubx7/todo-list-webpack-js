@@ -16,7 +16,7 @@ export default class Renderer {
 
   // eslint-disable-next-line class-methods-use-this
   serialUpdates() {
-    let updated = [];
+    const updated = [];
     const currentList = document.querySelectorAll('#list li');
     // eslint-disable-next-line no-restricted-syntax, guard-for-in
     for (const it in currentList) {
