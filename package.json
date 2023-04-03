@@ -1,0 +1,44 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "todo-list-app",
+  "private": "true",
+  "scripts": {
+    "test": "npm run lint",
+    "build": "webpack",
+    "start": "webpack serve --open",
+    "watch": "webpack --watch",
+    "server": "node server.js",
+    "lint": "npm run lint:html; npm run lint:js; npm run lint:css;",
+    "lint:html": "npx hint .",
+    "lint:js": "npx eslint .",
+    "lint:css": "npx stylelint '**/*.{css,scss}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mahabubx7/todo-list.git"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "author": "Mahabub <mahabubx7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.76.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^6.7.3",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "hint": "^7.1.5",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  }
+}
