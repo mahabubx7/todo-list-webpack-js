@@ -20,7 +20,6 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -141,6 +140,14 @@ Deployed in `Github Pages`. [Live Preview](https://mahabubx7.github.io/todo-list
 - GitHub: [@mahabubx7](https://github.com/mahabubx7)
 - Twitter: [@mahabub__7](https://twitter.com/mahabub__7)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/mahabubx7)
+
+
+
+👤 **Jedda**
+
+- GitHub: [@jjj](https://github.com/jjj)
+- Twitter: [@jjj](https://twitter.com/jjj)
+- LinkedIn: [jjj](https://linkedin.com/in/jjj)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
