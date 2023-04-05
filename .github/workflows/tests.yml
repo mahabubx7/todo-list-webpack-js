@@ -1,0 +1,20 @@
+name: Tests (TDD)
+
+on: push
+
+env:
+  FORCE_COLOR: 1
+
+jobs:
+  testings:
+    name: Jest-TDD
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+      - name: Install dependencies
+        run: npm install
+      - name: Running tests
+        run: npm test

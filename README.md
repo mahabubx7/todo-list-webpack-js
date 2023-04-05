@@ -143,6 +143,14 @@ Deployed in `Github Pages`. [Live Preview](https://mahabubx7.github.io/todo-list
 - LinkedIn: [LinkedIn](https://linkedin.com/in/mahabubx7)
 
 
+
+👤 **Jedda**
+
+- GitHub: [@jjj](https://github.com/jjj)
+- Twitter: [@jjj](https://twitter.com/jjj)
+- LinkedIn: [jjj](https://linkedin.com/in/jjj)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
