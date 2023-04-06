@@ -12,14 +12,14 @@ export default document.body.innerHTML = `
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
+  <div class="container" data-testid="doc">
     <div id="test"></div>
     <nav class="topbar">
       <h1>Today's To Do</h1>
       <button id="reload"><i class="ri-refresh-line"></i></button>
     </nav>
-    <input type="text" id="input" placeholder="Add to your list...">
-    <ul id="list"></ul>
+    <input type="text" role="insertion" id="input" placeholder="Add to your list...">
+    <ul id="list" data-testid="lists"></ul>
     <button id="btn-clear">clear all completed</button>
   </div>
 </body>
