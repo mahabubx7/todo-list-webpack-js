@@ -86,7 +86,6 @@ describe('Integration tests ~ removeItems', () => {
 
   it('last item should be removed', () => {
     todo.remove(1); // removed the first one
-    expect(todo.storage.get()).toEqual(todo.list);
     expect(todo.list.length).toBe(0);
     expect(todo.storage.get()).toEqual(todo.list);
     expect(todo.storage.get()).toEqual([]);
