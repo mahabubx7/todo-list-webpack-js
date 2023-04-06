@@ -8,7 +8,6 @@ import { screen, fireEvent } from '@testing-library/dom';
 // eslint-disable-next-line import/no-extraneous-dependencies, import/extensions
 import '@testing-library/jest-dom/extend-expect';
 import ToDo from '../libs/ToDo.js';
-// import Storage from '../libs/Storage.js';
 
 describe('Unit-test for edit/toggle methods', () => {
   const todo = new ToDo();
@@ -56,7 +55,6 @@ describe('Integration tests:user-usage', () => {
   todo.list = []; // reset initial list
   todo.storage.set([]); // reset initial list
   todo.render.render(); // render items first
-  console.log(todo.list, todo.storage.get());
 
   it('form should be visible', () => {
     const doc = screen.getByTestId('doc');
@@ -87,7 +85,6 @@ describe('Integration tests:user-usage', () => {
     const input = screen.getByRole('insertion');
     fireEvent.change(input, { target: { value: 'project-01' } });
     expect(input.value).toStrictEqual('project-01');
-    console.log(todo.list, todo.storage.get());
   });
 
   it('user should be able to insert new task', () => {
