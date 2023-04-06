@@ -54,8 +54,4 @@ export default class ToDo {
     this.list = this.list.filter((it) => it.completed === false);
     this.syncUpdates();
   }
-
-  refresh() {
-    this.syncUpdates(); // storage reset
-  }
 }

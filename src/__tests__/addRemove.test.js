@@ -80,9 +80,7 @@ describe('Integration tests ~ removeItems', () => {
   todo.add('wash the car');
 
   it('first item should be removed', () => {
-    // console.log(todo.list);
     todo.remove(2); // removed the last one
-    // expect(storage.get().toEqual(todo.list));
     expect(todo.list.length).toBe(1);
   });
 

@@ -10,8 +10,8 @@ export default class Renderer {
     this.render();
   }
 
-  syncUpdates(payload = []) {
-    this.list = new Storage('todo').get() || payload;
+  async syncUpdates(payload = []) {
+    this.list = await new Storage('todo').get() || payload;
   }
 
   // eslint-disable-next-line class-methods-use-this

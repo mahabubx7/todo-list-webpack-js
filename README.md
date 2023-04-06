@@ -67,20 +67,18 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-
 Check Git is already installed and working:
 
 ```sh
  git --version
  node --version
 ```
-It should not show you any error. And should return the version info.
 
+It should not show you any error. And should return the version info.
 
 ### Setup
 
 Clone this repository to your desired folder:
-
 
 Execute this:
 
@@ -88,11 +86,9 @@ Execute this:
   git clone git@github.com:mahabubx7/todo-list.git
 ```
 
-
 ### Install
 
 Install this project with:
-
 
 Install Dependencies:
 
@@ -101,22 +97,19 @@ Install Dependencies:
   npm install
 ```
 
-
 ### Usage
 
 To run the project, execute the following command:
 
-
 Execute this:
+
 ```sh
   npm start
 ```
 
-
 ### Run tests
 
 To run tests, run the following command:
-
 
 Testing with Lint-checks:
 
@@ -134,21 +127,17 @@ Deployed in `Github Pages`. [Live Preview](https://mahabubx7.github.io/todo-list
 
 ## 👥 Authors <a name="authors"></a>
 
-
 👤 **Mahabub**
 
 - GitHub: [@mahabubx7](https://github.com/mahabubx7)
-- Twitter: [@mahabub__7](https://twitter.com/mahabub__7)
+- Twitter: [@mahabub\_\_7](https://twitter.com/mahabub__7)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/mahabubx7)
-
-
 
 👤 **Jedda**
 
-- GitHub: [@jjj](https://github.com/jjj)
-- Twitter: [@jjj](https://twitter.com/jjj)
-- LinkedIn: [jjj](https://linkedin.com/in/jjj)
-
+- GitHub: [Jeddaa](https://github.com/jeddaa)
+- Twitter: [@\_jeddaah](https://twitter.com/_jeddaah)
+- LinkedIn: [Fatihah Oduwole](https://www.linkedin.com/in/fatihahoduwole/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,7 +174,6 @@ I would like to thank... microverse team.
 - **[Why webpack?]**
 
   - [It is a static bundler. It helps us to bundle a big and massy web-pages project into a bundled and gives us optimized performance. ]
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
